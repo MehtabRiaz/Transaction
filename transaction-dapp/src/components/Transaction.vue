@@ -24,7 +24,6 @@
       </span>
     </div>
 
-    {{ depositAmount }}
     <div class="w-full flex items-center space-x-2">
       <UInput
         v-model="depositAmount"
