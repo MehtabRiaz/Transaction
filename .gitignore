@@ -1,0 +1,8 @@
+transaction-dapp/node_modules
+transaction-dapp/dist
+transaction-dapp/dist-ssr
+transaction-dapp/*.local
+transaction-dapp/.vscode/*
+transaction-dapp/!.vscode/extensions.json
+
+transaction-contract/node_modules

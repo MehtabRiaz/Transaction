@@ -1,0 +1,200 @@
+.exit
+await hre.ethers.provider.getBalance('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+.exit
+exit
+await hre.ethers.provider.getBalance('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+0x5FbDB2315678afecb367f032d93F642f64180aa3
+await hre.ethers.provider.getBalance('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+.exit
+transaction.target
+await transaction.connect(otherAccount).deposit({value: depositAmount,})
+await hre.ethers.provider.getBalance('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+await hre.ethers.provider.getBalance(transaction.target)
+await transaction.connect(otherAccount).deposit({value: depositAmount,})
+await hre.ethers.provider.getBalance(transaction.target)
+await transaction.connect(otherAccount).deposit({value: depositAmount,})
+transaction.connect(otherAccount).deposit({value: depositAmount,})
+depositAmount = ethers.parseEther("0.00063")
+await hre.ethers.provider.getBalance(transaction.target)
+let { transaction, otherAccount, owner } = await deployContract();
+await hre.ethers.provider.getBalance(transaction.target)
+  }
+    return { transaction, owner, otherAccount };
+    const transaction = await Transaction.deploy();
+    const Transaction = await hre.ethers.getContractFactory("Transaction");
+    const [owner, otherAccount] = await hre.ethers.getSigners();
+    // Contracts are deployed using the first signer/account by default
+    // const unlockTime = (await time.latest()) + ONE_YEAR_IN_SECS;
+    // const lockedAmount = ONE_GWEI;
+    // const ONE_GWEI = 1_000_000_000;
+    // const ONE_YEAR_IN_SECS = 365 * 24 * 60 * 60;
+async function deployContract() {
+.exit
+i_owner
+transaction.target
+await hre.ethers.provider.getBalance(transaction.target)
+ethers.formatEther(balance)
+balance = await ethers.provider.getBalance(i_owner);
+ethers.formatEther(b)
+b = await ethers.provider.getBalance(i_owner)
+await transaction.connect(otherAccount).deposit({value: depositAmount,})
+depositAmount
+let depositAmount = ethers.parseEther("0.00063");
+ethers.formatEther(b)
+b = await ethers.provider.getBalance(i_owner)
+await ethers.provider.getBalance(i_owner)
+i_owner == owner.address
+i_owner = await transaction.i_owner()
+i_owner = await transaction.i_owner
+transaction.i_owner == otherAccount
+transaction.i_owner == owner 
+transaction.i_owner.address 
+transaction.i_owner
+transaction.owner
+transaction.owner()
+transaction.address 
+let { transaction, otherAccount, owner } = await deployContract();
+  }
+    return { transaction, owner, otherAccount };
+    const transaction = await Transaction.deploy();
+    const Transaction = await hre.ethers.getContractFactory("Transaction");
+    const [owner, otherAccount] = await hre.ethers.getSigners();
+    // Contracts are deployed using the first signer/account by default
+    // const unlockTime = (await time.latest()) + ONE_YEAR_IN_SECS;
+    // const lockedAmount = ONE_GWEI;
+    // const ONE_GWEI = 1_000_000_000;
+    // const ONE_YEAR_IN_SECS = 365 * 24 * 60 * 60;
+async function deployContract() {
+.exit
+let { transaction, otherAccount, owner } = await deployContract();
+        await deployTransactionFixture()
+let { transaction, otherAccount, owner } =
+  }
+    return { transaction, owner, otherAccount };
+    const transaction = await Transaction.deploy();
+    const Transaction = await hre.ethers.getContractFactory("Transaction");
+    const [owner, otherAccount] = await hre.ethers.getSigners();
+    // Contracts are deployed using the first signer/account by default
+    // const unlockTime = (await time.latest()) + ONE_YEAR_IN_SECS;
+    // const lockedAmount = ONE_GWEI;
+    // const ONE_GWEI = 1_000_000_000;
+    // const ONE_YEAR_IN_SECS = 365 * 24 * 60 * 60;
+async function deployContract() {
+.exit
+Transaction = await hre.ethers.getContractFactory("Lock");
+    const Lock = await hre.ethers.getContractFactory("Lock");
+otherAccount.address
+owner.address
+const [owner, otherAccount] = await hre.ethers.getSigners();
+.exit
+const [owner, otherAccount] = await hre.ethers.getSigners();
+hre
+import hre from "hardhat";
+transaction.address 
+        await deployTransactionFixture();
+let { transaction, otherAccount, owner } =
+  }
+    return { transaction, owner, otherAccount };
+    await transaction.waitForDeployment();
+    const transaction = await Transaction.deploy();
+    const Transaction = await ethers.getContractFactory("Transaction");
+    const [owner, otherAccount] = await ethers.getSigners();
+async function deployTransactionFixture() {
+.exit
+await owner.provider
+await owner.provider.getAddress
+        await deployTransactionFixture();
+let { transaction, otherAccount, owner } =
+  }
+    return { transaction, owner, otherAccount };
+    const transaction = await Transaction.deploy();
+    const Transaction = await ethers.getContractFactory("Transaction");
+    const [owner, otherAccount] = await ethers.getSigners();
+async function deployTransactionFixture() {
+.exit
+        await deployTransactionFixture();
+let { transaction, otherAccount, owner } =
+otherAccount
+transaction.address 
+let { transaction, otherAccount } = await deployTransactionFixture();
+  }
+    return { transaction, owner, otherAccount };
+    const transaction = await Transaction.deploy();
+    const Transaction = await ethers.getContractFactory("Transaction");
+    const [owner, otherAccount] = await ethers.getSigners();
+async function deployTransactionFixture() {
+.exit
+let { transaction, otherAccount } = await deployTransactionFixture();
+const { transaction, otherAccount } = await deployTransactionFixture();
+  }
+    return { transaction, owner, otherAccount };
+    const transaction = await Transaction.deploy();
+    const Transaction = await ethers.getContractFactory("Transaction");
+    const [owner, otherAccount] = await ethers.getSigners();
+async function deployTransactionFixture() {
+const { transaction, otherAccount } = await deployTransactionFixture();
+.exit
+balance = await ethers.provider.getBalance('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+balance = ethers.provider.getBalance('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+.exit
+ethers.parseEther("0.00063")
+balance = await ethers.provider.getBalance("0xac761C59bC944754979A1e8f906f03299f09214a");
+ethers.formatEther(balance)
+balance
+balance = await ethers.provider.getBalance("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+transaction.addListener
+transaction.address 
+JSON.parse(transaction)
+transaction.as_json
+transaction = await Transaction.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+transaction = await Transaction.attach("0xYourContractAddress");
+const transaction = await Transaction.attach("0xYourContractAddress");
+Transaction = await ethers.getContractFactory("Transaction");
+const Transaction = await ethers.getContractFactory("Transaction");
+transaction.address
+transaction.address 
+transaction = await Transaction.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+balance = ethers.provider.getBalance('0xcd56dcb26cb2079f7016b4a27e54f24f32d4c1419af8c10f37107e7f53875080')
+balance = ethers.provider.getBalance(0xcd56dcb26cb2079f7016b4a27e54f24f32d4c1419af8c10f37107e7f53875080)
+transaction.address
+ethers.provider.getBalance
+ethers.provider
+transaction = await Transaction.attach("0xac761C59bC944754979A1e8f906f03299f09214a");
+balance = await ethers.provider.getBalance(transaction.address);
+ethers.formatEther(balance)
+ethers.utils.formatEther(balance)
+balance = await ethers.provider.getBalance(transaction.address);
+const balance = await ethers.provider.getBalance(transaction.address);
+transaction = await Transaction.attach("0xac761C59bC944754979A1e8f906f03299f09214a");
+ethers 
+balance
+const balance = await ethers.provider.getBalance(transaction.address);
+transaction 
+transaction = await Transaction.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const transaction = await Transaction.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const transaction = await Transaction.attach("0xYourContractAddress");
+Transaction
+const Transaction = await ethers.getContractFactory("Transaction");
+.exit
+exit
+Transaction
+exit
+amount <= 
+amount = ethers.parseEther("0.00040")
+res.otherAccount.address 
+res.owner.otherAccount
+res.owner.address 
+res.owner 
+res.transaction
+res 
+res = await deployTransactionFixture()
+  }
+    return { transaction, owner, otherAccount };
+    const transaction = await Transaction.deploy();
+    const Transaction = await ethers.getContractFactory("Transaction");
+    const [owner, otherAccount] = await ethers.getSigners();
+async function deployTransactionFixture() {
+t  = await c.deploy
+c = await ethers.getContractFactory('Transaction')
+c = await ethers.getContractFactory('Lock')
+ethers
